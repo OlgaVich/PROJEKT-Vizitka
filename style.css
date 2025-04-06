@@ -2,6 +2,127 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+body {
+    background-color: #b2bec3;
+}
+
+.vizitka {
+    padding: 30px;
+    width: 550px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1),
+                0 2px 2px rgba(0, 0, 0, .1),
+                0 8px 8px rgba(0, 0, 0, .1),
+                0 8px 8px rgba(0, 0, 0, .1);
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+.vizitka {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.foto {
+    border-radius: 50%;
+    border: 3px solid white;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 475px;
+    top: -75px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #d63031;
+    line-height: 100%;
+  }
+
+p {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.twitter {
+    background-color: #1da1f2;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.twitter li {
+    display: block; 
+}
+    
+
+
+.twitter :hover {
+    background-color: #0b7bc1;
+    border-radius: 5px;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.facebook :hover {
+    background-color: #2b406e;
+    border-radius: 5px;
+}
+
+.facebook li {   
+    display: block;
+}
+
+.facebook a {
+    color: white;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    display: inline-block;
+}
+
+.twitter a {
+    color: white;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+
+
+
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
